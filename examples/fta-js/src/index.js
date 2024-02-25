@@ -250,7 +250,7 @@ paper.svg.prepend(
         .joint-element .selection {
             stroke: ${color};
         }
-        .joint-link .selection {
+        .joint-link {
             stroke: ${color};
             stroke-dasharray: 5;
             stroke-dashoffset: 10;
@@ -310,36 +310,65 @@ function selectElement(el) {
     }
 }
 
+const FE = element(100, 100, "NextJS Frontend");
+console.log(FE.attributes.attrs?.label?.text);
+
 const events = [
-    BasicEvent.create("Safety Belt Broken"),
-    element(300, 50),
-    element(100, 200),
-    element(300, 200),
-    element(500, 200),
-    element(300, 350),
-    element(40, 350),
-    element(160, 350),
-    element(160, 500),
-    element(160, 500),
-    UndevelopedEvent.create("Upholder Broken"),
-    ExternalEvent.create("Take off When Walking"),
+    element(100, 100, "NextJS Frontend"),
+    element(200, 100, "NextJS Backend"),
+    element(300, 100, "Route 53 (DNS)"),
+    element(400, 100, "SquareSpace"),
+    element(600, 100, "OpenAI API"),
+    element(700, 100, "Auth0"),
+    element(800, 100, "IDP"),
+    element(900, 100, "Google"),
+    element(1000, 100, "Email"),
+    element(1100, 100, "DynamoDB"),
+    element(1200, 100, "AWS EventBridge"),
+    element(1300, 100, "Stripe"),
+    element(1400, 100, "AWS Cloudwatch"),
+    element(1500, 100, "AWS Lambda"),
+    element(1600, 100, "AWS Amplify"),
+    ExternalEvent.create("Send Email"),
+    ExternalEvent.create("Bank"),
+    BasicEvent.create("User"),
+    ExternalEvent.create("Github"),
+    element(500, 100, "Tailwind"),
 ];
 
+// Store events by their unique identifier
+const eventsByLabel = {};
+events.forEach((event) => {
+    eventsByLabel[event.attributes.attrs?.label?.text] = event;
+});
+
+console.log(eventsByLabel);
 const links = [
-    Link.create(events[0], events[3]),
-    Link.create(events[1], events[3]),
-    Link.create(events[1], events[2]),
-    Link.create(events[1], events[4]),
-    Link.create(events[2], events[6]),
-    Link.create(events[2], events[7]),
-    Link.create(events[3], events[5]),
-    Link.create(events[7], events[8]),
-    Link.create(events[9], events[0]),
-];
+    Link.create(eventsByLabel["User"], eventsByLabel["Route 53 (DNS)"]),
+    Link.create(eventsByLabel["SquareSpace"], eventsByLabel["Route 53 (DNS)"]),
+    Link.create(
+        eventsByLabel["Route 53 (DNS)"],
+        eventsByLabel["NextJS Frontend"]
+    ),
+    Link.create(
+        eventsByLabel["NextJS Backend"],
+        eventsByLabel["NextJS Frontend"]
+    ),
+    Link.create(eventsByLabel["NextJS Backend"], eventsByLabel["OpenAI API"]),
+    Link.create(eventsByLabel["Auth0"], eventsByLabel["IDP"]),
+    Link.create(eventsByLabel["IDP"], eventsByLabel["Google"]),
+    Link.create(eventsByLabel["IDP"], eventsByLabel["Email"]),
+    Link.create(eventsByLabel["DynamoDB"], eventsByLabel["AWS EventBridge"]),
+    Link.create(eventsByLabel["AWS Amplify"], eventsByLabel["AWS Cloudwatch"]),
 
-const el1 = element(300, 50);
-const el3 = element(300, 50);
-link(el1, el3);
+    Link.create(eventsByLabel["AWS EventBridge"], eventsByLabel["AWS Lambda"]),
+    Link.create(eventsByLabel["AWS Lambda"], eventsByLabel["Send Email"]),
+    Link.create(eventsByLabel["Stripe"], eventsByLabel["Bank"]),
+    Link.create(eventsByLabel["NextJS Backend"], eventsByLabel["Auth0"]),
+    Link.create(eventsByLabel["NextJS Backend"], eventsByLabel["DynamoDB"]),
+    Link.create(eventsByLabel["NextJS Backend"], eventsByLabel["Stripe"]),
+    Link.create(eventsByLabel["NextJS Backend"], eventsByLabel["AWS Amplify"]),
+];
 
 graph.resetCells(events.concat(links));
 
@@ -393,13 +422,13 @@ function runLayout(graph) {
     graph.translate(-diff.x, -diff.y);
 }
 
-function element(x, y) {
+function element(x, y, label = "") {
     const el = new shapes.standard.Rectangle({
         position: { x, y },
-        size: { width: 100, height: 60 },
+        size: { width: 130, height: 60 },
         attrs: {
             label: {
-                text: `Node ${graph.getElements().length + 1}`,
+                text: `${label}`,
                 fontFamily: "sans-serif",
             },
         },
