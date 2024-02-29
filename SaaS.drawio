@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T23:38:18.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jOzSQwveLeMfgQE6idYb" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T23:38:50.045Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ckPPOYgHlrvU8XL2Hgnm" version="24.0.0" type="github">
   <diagram name="Page-1" id="stp3hUiWKFvUIHmepx1J">
     <mxGraphModel dx="1633" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
         <mxCell id="7OdH-bz1PqLTHuMWGKov-63" value="&lt;b&gt;Logging&lt;/b&gt;&lt;div&gt;AWS Cloudfront&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="560" width="90" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-66" value="&lt;div&gt;Identity Provider&lt;/div&gt;Auth0" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-66" value="&lt;div&gt;&lt;b&gt;Identity Provider&lt;/b&gt;&lt;/div&gt;Auth0" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-68" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.locked;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
