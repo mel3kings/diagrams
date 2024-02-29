@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T23:33:51.540Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="m94Bey9qI3bpAOJWHC2r" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-29T23:38:18.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jOzSQwveLeMfgQE6idYb" version="24.0.0" type="github">
   <diagram name="Page-1" id="stp3hUiWKFvUIHmepx1J">
-    <mxGraphModel dx="1866" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1633" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,7 +12,7 @@
             <mxPoint x="440" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-1" value="Squarespace" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-1" value="&lt;div&gt;&lt;b&gt;Domain Provider&lt;/b&gt;&lt;/div&gt;Squarespace" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-4" target="7OdH-bz1PqLTHuMWGKov-11">
@@ -24,10 +24,13 @@
         <mxCell id="7OdH-bz1PqLTHuMWGKov-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-5" target="7OdH-bz1PqLTHuMWGKov-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-5" value="&lt;div&gt;DNS&lt;/div&gt;AWS Route 53" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-5" value="&lt;div&gt;&lt;b&gt;DNS&lt;/b&gt;&lt;/div&gt;AWS Route 53" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-11" target="7OdH-bz1PqLTHuMWGKov-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-11" target="7OdH-bz1PqLTHuMWGKov-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-11" value="Browser" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
@@ -54,11 +57,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-14" value="NextJS&lt;div&gt;&lt;/div&gt;&lt;div&gt;(Frontend/Backend)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-14" value="&lt;div&gt;&lt;b&gt;Frontend/Backend&lt;/b&gt;&lt;br&gt;&lt;/div&gt;NextJS&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="460" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-16" value="Tailwind" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="460" width="60" height="30" as="geometry" />
+          <mxGeometry x="790" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-17" target="7OdH-bz1PqLTHuMWGKov-14">
           <mxGeometry relative="1" as="geometry" />
@@ -73,7 +76,7 @@
             <mxPoint x="960" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-17" value="CiCD&lt;div&gt;AWS Amplify&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-17" value="&lt;b&gt;CiCD&lt;/b&gt;&lt;div&gt;AWS Amplify&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-19" target="7OdH-bz1PqLTHuMWGKov-17">
@@ -84,10 +87,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-19" value="Github&amp;nbsp;&lt;div&gt;Webhook&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-19" value="&lt;div&gt;&lt;b&gt;Code Repository&lt;/b&gt;&lt;/div&gt;Github&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-21" value="(Payments)&lt;div&gt;Stripe&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-21" value="&lt;b&gt;Payments&lt;/b&gt;&lt;div&gt;Stripe&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-29" target="7OdH-bz1PqLTHuMWGKov-34">
@@ -101,7 +104,7 @@
         <mxCell id="7OdH-bz1PqLTHuMWGKov-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-34" target="7OdH-bz1PqLTHuMWGKov-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-34" value="&lt;div&gt;(Event-Driven)&lt;/div&gt;AWS EventBridge" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;flipH=0;spacingRight=0;spacingLeft=14;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-34" value="&lt;div&gt;&lt;b&gt;Event-Driven&lt;/b&gt;&lt;/div&gt;AWS EventBridge" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;flipH=0;spacingRight=0;spacingLeft=14;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="330" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-38" target="7OdH-bz1PqLTHuMWGKov-19">
@@ -149,7 +152,7 @@
             <mxPoint x="1195" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-63" value="Logging&lt;div&gt;AWS Cloudfront&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-63" value="&lt;b&gt;Logging&lt;/b&gt;&lt;div&gt;AWS Cloudfront&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="560" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-66" value="&lt;div&gt;Identity Provider&lt;/div&gt;Auth0" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
@@ -174,7 +177,7 @@
             <mxPoint x="470" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OdH-bz1PqLTHuMWGKov-78" value="&lt;div&gt;(SMTP)&lt;/div&gt;Resend" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-78" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Email Provider&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Resend&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-80" target="7OdH-bz1PqLTHuMWGKov-4">
@@ -195,6 +198,26 @@
         </mxCell>
         <mxCell id="7OdH-bz1PqLTHuMWGKov-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-21" target="7OdH-bz1PqLTHuMWGKov-38">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-93" value="&lt;b&gt;Security Scan&lt;/b&gt;&lt;div&gt;(Gitleaks)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-95" value="&lt;div&gt;&lt;b&gt;Analytics&lt;/b&gt;&lt;/div&gt;Google Analytics" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-99" value="&lt;div&gt;&lt;b&gt;SEO&lt;/b&gt;&lt;/div&gt;ahrefs" style="whiteSpace=wrap;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OdH-bz1PqLTHuMWGKov-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OdH-bz1PqLTHuMWGKov-11" target="7OdH-bz1PqLTHuMWGKov-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="540" as="sourcePoint" />
+            <mxPoint x="300" y="690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
